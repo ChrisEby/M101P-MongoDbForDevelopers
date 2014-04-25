@@ -1,0 +1,1 @@
+mongoimport -d homework -c zips < zips.json

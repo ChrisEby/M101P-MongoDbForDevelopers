@@ -1,0 +1,1 @@
+mongoimport -d homework -c grades < grades_5-3.js

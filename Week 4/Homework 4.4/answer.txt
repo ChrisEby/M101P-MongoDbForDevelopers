@@ -1,0 +1,15 @@
+db.profile.find({ns:/school2.students/},{millis:1}).sort({millis:1}).limit(10).pretty()
+
+{ "_id" : ObjectId("51e1d0e60e272b1d6def78b0"), "millis" : 15820 }
+{ "_id" : ObjectId("51e1d0e50e272b1d6def752d"), "millis" : 12560 }
+{ "_id" : ObjectId("51e1d0e50e272b1d6def7692"), "millis" : 11084 }
+{ "_id" : ObjectId("51e1d0e50e272b1d6def7543"), "millis" : 9493 }
+{ "_id" : ObjectId("51e1d0e60e272b1d6def78a5"), "millis" : 9059 }
+{ "_id" : ObjectId("51e1d0e50e272b1d6def754e"), "millis" : 7355 }
+{ "_id" : ObjectId("51e1d0e60e272b1d6def78bb"), "millis" : 6765 }
+{ "_id" : ObjectId("51e1d0e50e272b1d6def7538"), "millis" : 6639 }
+{ "_id" : ObjectId("51e1d0e50e272b1d6def769e"), "millis" : 6361 }
+{ "_id" : ObjectId("51e1d0e60e272b1d6def7776"), "millis" : 6310 }
+>
+
+Answer: 15820

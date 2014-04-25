@@ -1,0 +1,1 @@
+db.grades.find({score: {$gt : 65, $lt: 66}, type:"exam"}).sort({ score : -1 }).pretty()
